@@ -1,0 +1,58 @@
+.btn {
+  width: 16rem;
+  height: 3.8rem;
+  font-family: 'Space Grotesk';
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 2.2857143878936768px;
+  text-decoration: solid $green-color;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: $white-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &__hr {
+    width: 12rem;
+    height: 0.2rem;
+    border: none;
+    background-color: $green-color;
+    margin-top: 0.8rem;
+  }
+}
+
+.btn:hover {
+  color: $green-color;
+}
+
+.contact__btn {
+  width: 15rem;
+}
+
+
+.btn__hover:hover {
+  color: $green-color;
+}
+
+.hover__link {
+  position: relative;
+
+  &::before {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: $green-color;
+    bottom: -5px;
+    transition: 0.3s;
+  }
+
+  &:hover::before {
+    width: 100%;
+  }
+}

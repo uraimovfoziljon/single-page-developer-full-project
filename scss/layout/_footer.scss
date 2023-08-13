@@ -1,0 +1,15 @@
+.footer {
+    background-color: $dark-grey;
+
+    &__container {
+        width: 100%;
+        max-width: 111rem;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid $white-color;
+        padding-top: 4.7rem;
+        padding-bottom: 9rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

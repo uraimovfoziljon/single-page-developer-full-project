@@ -1,22 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Name</title>
+    <title>Single page</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!-- HEADER START -->
-    <header class="header"></header>
+    <header class="header__container container">
+        <div class="sitelogo">
+            <a href="./index.html">
+                <img class="sitelogo__img" src="./images/svg/site-logo.svg" alt="adamkeyes logo"></a>
+        </div>
+        <div class="social">
+            <a class="social__link" href="https://www.path.org/">
+                <img class="social__img" src="./images/svg/path-logo.svg" alt="path logo">
+            </a>
+
+            <a class="social__link" href="https://simpleicons.org/">
+                <img class="social__img" src="./images/svg/simple-icons_.svg" alt="simple icon frontendmentor">
+            </a>
+
+            <a class="social__link" href="https://ru.linkedin.com/">
+                <img class="social__img" src="./images/svg/linkedIn-logo.svg" alt="linkedin logo">
+            </a>
+
+            <a class="social__link" href="https://twitter.com/?lang=ru">
+                <img class="social__img" src="./images/svg/twitter-logo.svg" alt="twitter logo">
+            </a>
+        </div>
+
+    </header>
     <!-- HEADER END -->
-    
+
     <!-- MAIN START-->
-    <main class="main"></main>
+    <main class="main">
+        <section class="hero container">
+            <div class="hero__desc">
+                <div class="hero__titles">
+                    <h1>Nice to <span class="bottomm">meet you!</span></h1>
+
+                    <h1>I'm <span style="border-bottom: 7px solid #4ee1a0;" class="hero__title">Adam Keyes.</span></h1>
+                </div>
+
+                <p class="hero__text">Based in the UK, I`m a front-end developer passionate about building accessible
+                    web apps that users love.</p>
+
+                <div class="btn">Contact me
+                    <hr class="btn__hr">
+                </div>
+                <div class="hero__bg"></div>
+            </div>
+
+            <div class="hero__wrapper">
+                <img class="man-image" src="./images/png/hero-image.png" alt="">
+                <img class="oval" src="./images/svg/Oval.svg" alt="">
+            </div>
+        </section>
+
+
+        <!-- BOXS -->
+        <section class="boxs container">
+            <div class="boxs__description">
+                <h2>HTML</h2>
+                <p class="boxs__description__text">4 Years Experience</p>
+            </div>
+            <div class="boxs__description">
+                <h2>CSS</h2>
+                <p class="boxs__description__text">4 Years Experience</p>
+            </div>
+            <div class="boxs__description">
+                <h2>Javascript</h2>
+                <p class="boxs__description__text">4 Years Experience</p>
+            </div>
+            <div class="boxs__description">
+                <h2>Accessibility</h2>
+                <p class="boxs__description__text">4 Years Experience</p>
+            </div>
+            <div class="boxs__description">
+                <h2>React</h2>
+                <p class="boxs__description__text">3 Years Experience</p>
+            </div>
+            <div class="boxs__description">
+                <h2>Sass</h2>
+                <p class="boxs__description__text">4 Years Experience</p>
+            </div>
+        </section>
+
+        <!-- PROJECT -->
+        <section class="project container">
+            <div class="project__top">
+                <div class="project__title">
+                    <h1>Projects</h1>
+                </div>
+                <div class="btn">Contact me
+                    <hr class="btn__hr">
+                </div>
+            </div>
+
+            <div class="project__center">
+                <ul class="project__list">
+                    <li class="project__list__item">
+                        <div class="item__one">
+
+                            <div class="projects-box design-bg">
+                            <a href="#" class="btn__hover hover__link">VIEW PROJECT</a>
+                            <a href="#" class="btn__hover btn__under hover__link">VIEW CODE</a>
+                            </div>
+                        </div>
+                        <h3>DESIGN PORTFOLIO</h3>
+                        <div class="project__desc">
+                            <p class="project__text">HTML</p>
+                            <p class="project__text">CSS</p>
+                        </div>
+                    </li>
+
+                    <li class="project__list__item">
+                        <div class="item__two">
+
+                            <div class="projects-box design-bg">
+                            <a href="#" class="btn__hover hover__link">VIEW PROJECT</a>
+                            <a href="#" class="btn__hover btn__under hover__link">VIEW CODE</a>
+                            </div>
+                        </div>
+                        <h3>E-LEARNING LANDING PAGE</h3>
+                        <div class="project__desc">
+                            <p class="project__text">HTML</p>
+                            <p class="project__text">CSS</p>
+                        </div>
+                    </li>
+
+                    <li class="project__list__item">
+                        <div class="item__three">
+
+                            <div class="projects-box design-bg">
+                            <a href="#" class="btn__hover hover__link">VIEW PROJECT</a>
+                            <a href="#" class="btn__hover btn__under hover__link">VIEW CODE</a>
+                            </div>
+                        </div>
+                        <h3>TODO WEB APP</h3>
+                        <div class="project__desc">
+                            <p class="project__text">HTML</p>
+                            <p class="project__text">CSS</p>
+                            <p class="project__text">JAVASCRIPT</p>
+                        </div>
+                    </li>
+
+                    <li class="project__list__item">
+                        <div class="item__four">
+
+                            <div class="projects-box design-bg">
+                            <a href="#" class="btn__hover hover__link">VIEW PROJECT</a>
+                            <a href="#" class="btn__hover btn__under hover__link">VIEW CODE</a>
+                            </div>
+                        </div>
+                        <h3>ENTERTAINMENT WEB APP</h3>
+                        <div class="project__desc">
+                            <p class="project__text">HTML</p>
+                            <p class="project__text">CSS</p>
+                            <p class="project__text">JAVASCRIPT</p>
+
+                        </div>
+                    </li>
+
+                    <li class="project__list__item">
+                        <div class="item__five">
+
+                            <div class="projects-box design-bg">
+                            <a href="#" class="btn__hover hover__link">VIEW PROJECT</a>
+                            <a href="#" class="btn__hover btn__under hover__link">VIEW CODE</a>
+                            </div>
+                        </div>
+                        <h3>MEMORY GAME</h3>
+                        <div class="project__desc">
+                            <p class="project__text">HTML</p>
+                            <p class="project__text">CSS</p>
+                            <p class="project__text">JAVASCRIPT</p>
+
+                        </div>
+                    </li>
+
+                    <li class="project__list__item">
+                        <div class="item__six">
+
+                            <div class="projects-box design-bg">
+                            <a href="#" class="btn__hover hover__link">VIEW PROJECT</a>
+                            <a href="#" class="btn__hover btn__under hover__link">VIEW CODE</a>
+                            </div>
+                        </div>
+                        <h3>ART GALLERY SHOWCASE</h3>
+                        <div class="project__desc">
+                            <p class="project__text">HTML</p>
+                            <p class="project__text">CSS</p>
+                            <p class="project__text">JAVASCRIPT</p>
+                        </div>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact__container container">
+                <div class="contact__left">
+                    <h1>Contact</h1>
+                    <div class="contact__text">
+                        I would love to hear about your project and how I could help. Please fill in the form, and I’ll
+                        get back to you as soon as possible.
+                    </div>
+                </div>
+
+                <div class="contact__right">
+                    <form action="action">
+                        <input id="input__one" type="text" placeholder="NAME">
+                        <input id="input__two" type="email" placeholder="EMAIL">
+                        <input id="message__input" type="text" placeholder="MESSAGE">
+                    </form>
+                    <div class="btn left">Send message
+                        <hr class="btn__hr contact__btn">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- MAIN END-->
 
     <!-- FOOTER START -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="sitelogo">
+                <a href="./index.html">
+                    <img class="sitelogo__img" src="./images/svg/site-logo.svg" alt="adamkeyes logo">
+                </a>
+            </div>
+            <div class="social">
+                <a class="social__link" href="https://www.path.org/">
+                    <img class="social__img" src="./images/svg/path-logo.svg" alt="path logo">
+                </a>
+
+                <a class="social__link" href="https://simpleicons.org/">
+                    <img class="social__img" src="./images/svg/simple-icons_.svg" alt="simple icon frontendmentor">
+                </a>
+
+                <a class="social__link" href="https://ru.linkedin.com/">
+                    <img class="social__img" src="./images/svg/linkedIn-logo.svg" alt="linkedin logo">
+                </a>
+
+                <a class="social__link" href="https://twitter.com/?lang=ru">
+                    <img class="social__img" src="./images/svg/twitter-logo.svg" alt="twitter logo">
+                </a>
+            </div>
+        </div>
+
+    </footer>
     <!-- FOOTER END -->
 </body>
+
 </html>

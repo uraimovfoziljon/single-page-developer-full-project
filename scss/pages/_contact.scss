@@ -1,0 +1,33 @@
+.contact {
+    display: flex;
+    background-color: $dark-grey;
+    padding-top: 8rem;
+    background-image: (url(../images/svg/wave.svg));
+    background-repeat: no-repeat;
+    background-position: bottom 4rem left -20rem;
+    flex-wrap: wrap;
+    
+    
+    &__text {
+        width: 44.5rem;
+        color: $grey;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5; 
+        margin-top: 3.6rem;
+    }
+}
+
+.contact__container {
+    display: flex;
+    margin-bottom: 9rem;
+}
+
+@media screen and (max-width:1120px) {
+
+    .contact{
+        flex-direction: column;
+    }
+    
+}
